@@ -1,0 +1,37 @@
+.contable2{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+
+}
+thead{
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    
+}
+tr,td, th, thead{
+    padding: 10px;
+}
+caption{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px 0px;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+span{
+    border: gray solid;
+    padding: 2px 3px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+tr:hover{
+    background-color: gray;
+}
